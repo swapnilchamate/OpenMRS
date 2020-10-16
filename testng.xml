@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="openMRS_Suite">
+
+	<listeners>
+		<listener class-name="com.qa.openmrs.extentreport.ExtentReporterNG" />
+		<listener class-name="com.qa.openmrs.listeners.ITestlistener" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="com.qa.openmrs.tests.loginpagetest"/>
+			<!-- <class name="com.qa.openmrs.tests.registerpatienttest"/> -->
+			<!-- <class name="com.qa.openmrs.tests.homepagetest"/> -->
+			<!-- <class name="com.qa.openmrs.tests.patientrecordspgetest" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- openMRS_Suite -->
