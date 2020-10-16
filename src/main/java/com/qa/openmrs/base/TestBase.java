@@ -19,7 +19,7 @@ import com.sun.jna.platform.FileUtils;
 
 public class TestBase {
 
-	/*author: Swapnil Chamate*/
+	/*author: Swapnil Chamate  -updated  */
 	
 	public static WebDriver driver;
 	public static Properties prop;
