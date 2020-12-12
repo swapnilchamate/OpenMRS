@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="openMRS_Suite" duration-ms="89722" started-at="2020-10-16T08:32:15Z" finished-at="2020-10-16T08:33:45Z">
+  <suite name="Default suite" duration-ms="86098" started-at="2020-12-12T05:15:45Z" finished-at="2020-12-12T05:17:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89722" started-at="2020-10-16T08:32:15Z" finished-at="2020-10-16T08:33:45Z">
+    <test name="Default test" duration-ms="86098" started-at="2020-12-12T05:15:45Z" finished-at="2020-12-12T05:17:11Z">
       <class name="com.qa.openmrs.tests.loginpagetest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="Setup" is-config="true" duration-ms="30728" started-at="2020-10-16T14:02:15Z" finished-at="2020-10-16T14:02:46Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="Setup" is-config="true" duration-ms="30452" started-at="2020-12-12T10:45:45Z" finished-at="2020-12-12T10:46:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validatelogotest()[pri:-2, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="validatelogotest" duration-ms="355" started-at="2020-10-16T14:02:46Z" finished-at="2020-10-16T14:02:46Z">
+        <test-method status="PASS" signature="validatelogotest()[pri:-2, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="validatelogotest" duration-ms="248" started-at="2020-12-12T10:46:16Z" finished-at="2020-12-12T10:46:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogotest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="TearDown" is-config="true" duration-ms="3626" started-at="2020-10-16T14:02:46Z" finished-at="2020-10-16T14:02:50Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="TearDown" is-config="true" duration-ms="3699" started-at="2020-12-12T10:46:16Z" finished-at="2020-12-12T10:46:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="Setup" is-config="true" duration-ms="14256" started-at="2020-10-16T14:02:50Z" finished-at="2020-10-16T14:03:04Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="Setup" is-config="true" duration-ms="13214" started-at="2020-12-12T10:46:20Z" finished-at="2020-12-12T10:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="validatetitle()[pri:-1, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="validatetitle" duration-ms="35" started-at="2020-10-16T14:03:04Z" finished-at="2020-10-16T14:03:04Z">
+        <test-method status="FAIL" signature="validatetitle()[pri:-1, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="validatetitle" duration-ms="52" started-at="2020-12-12T10:46:33Z" finished-at="2020-12-12T10:46:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login1] but found [Login]]]>
@@ -68,35 +68,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatetitle -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="TearDown" is-config="true" duration-ms="2145" started-at="2020-10-16T14:03:05Z" finished-at="2020-10-16T14:03:07Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="TearDown" is-config="true" duration-ms="2625" started-at="2020-12-12T10:46:33Z" finished-at="2020-12-12T10:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="Setup" is-config="true" duration-ms="14071" started-at="2020-10-16T14:03:07Z" finished-at="2020-10-16T14:03:22Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="Setup" is-config="true" duration-ms="12976" started-at="2020-12-12T10:46:36Z" finished-at="2020-12-12T10:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validatelinktest()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="validatelinktest" duration-ms="232" started-at="2020-10-16T14:03:22Z" finished-at="2020-10-16T14:03:22Z">
+        <test-method status="PASS" signature="validatelinktest()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="validatelinktest" duration-ms="173" started-at="2020-12-12T10:46:49Z" finished-at="2020-12-12T10:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelinktest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="TearDown" is-config="true" duration-ms="1992" started-at="2020-10-16T14:03:22Z" finished-at="2020-10-16T14:03:24Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="TearDown" is-config="true" duration-ms="2806" started-at="2020-12-12T10:46:49Z" finished-at="2020-12-12T10:46:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="Setup" is-config="true" duration-ms="13789" started-at="2020-10-16T14:03:24Z" finished-at="2020-10-16T14:03:38Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="Setup" is-config="true" duration-ms="12024" started-at="2020-12-12T10:46:52Z" finished-at="2020-12-12T10:47:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="logintest()[pri:3, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="logintest" duration-ms="4926" started-at="2020-10-16T14:03:38Z" finished-at="2020-10-16T14:03:42Z">
+        <test-method status="PASS" signature="logintest()[pri:3, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="logintest" duration-ms="5036" started-at="2020-12-12T10:47:04Z" finished-at="2020-12-12T10:47:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@59f99ea]" name="TearDown" is-config="true" duration-ms="2222" started-at="2020-10-16T14:03:42Z" finished-at="2020-10-16T14:03:45Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.openmrs.tests.loginpagetest@66a3ffec]" name="TearDown" is-config="true" duration-ms="2651" started-at="2020-12-12T10:47:09Z" finished-at="2020-12-12T10:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.qa.openmrs.tests.loginpagetest -->
-    </test> <!-- Test -->
-  </suite> <!-- openMRS_Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

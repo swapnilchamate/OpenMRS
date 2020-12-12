@@ -1,0 +1,4 @@
+com\qa\openmrs\tests\homepagetest.class
+com\qa\openmrs\tests\loginpagetest.class
+com\qa\openmrs\tests\patientrecordspgetest.class
+com\qa\openmrs\tests\registerpatienttest.class

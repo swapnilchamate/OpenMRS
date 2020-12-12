@@ -1,0 +1,10 @@
+com\qa\openmrs\pages\HomePage.class
+com\qa\openmrs\pages\RegisterPatientPage.class
+com\qa\openmrs\utils\utils.class
+com\qa\openmrs\base\TestBase.class
+com\qa\openmrs\pages\AppointmentSchedulingPage.class
+com\qa\openmrs\pages\LoginPage.class
+com\qa\openmrs\extentreport\ExtentReporterNG.class
+com\qa\openmrs\pages\PatientRecordsPage.class
+com\qa\openmrs\listeners\ITestlistener.class
+com\qa\openmrs\pages\ActiveVisitsPage.class

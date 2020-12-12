@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.openmrs.tests.homepagetest">
+      <class name="com.qa.openmrs.tests.loginpagetest">
         <methods>
+          <include name="validatetitle"/>
           <include name="TearDown"/>
           <include name="Setup"/>
-          <include name="validateloginmessagetest"/>
         </methods>
-      </class> <!-- com.qa.openmrs.tests.homepagetest -->
+      </class> <!-- com.qa.openmrs.tests.loginpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
